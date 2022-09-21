@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+#wrapper{width:100%; position:relative;}
+
+@font-face /*perintah untuk memanggil font eksternal*/
+{
+	font-family: 'Lato';
+	src: url('font/Lato-Bold.ttf');
+}
+h2{
+	font-family: 'Lato';
+}
+
+.btn-login {
+    background: #cc0000;
+	width: 96%;
+	height: 43px;
+	margin-bottom: 8px;
+	color: #000;
+	border: 0px solid #fff;
+	border-radius: 3px;
+	display: inline-block;
+}
+.btn-login .bungkusan-konten {
+	height: 100%;
+	width: 100%;
+}
+.btn-login img {
+	width: 27px;
+	height: 27px;
+	float: left;
+}
+.btn-login .bungkusan-logo {
+	background: #fff;
+	width: auto;
+	height: 100%;
+	padding: 14px;
+	padding-top: 11px;
+	display: inline-block;
+	float: left;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.btn-login .bungkusan-teks {
+    background: #cc0000;
+    width: 200px;
+    color: #fff;
+    font-family: Teko;
+    text-align: center;
+    line-height: 42px;
+	vertical-align: top;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
